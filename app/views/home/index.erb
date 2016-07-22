@@ -1,0 +1,62 @@
+
+<div id="main">
+	<div class="inner">
+		<header>
+			<!--<form action='/index/' method="GET">-->
+	  		  <ul class="actions">
+	  		  	<li><a href="/index/all" class="button special small searchtag">all</a></li>
+	  		  	<li><a href="/index/humanity" class="button small searchtag">humanity</a></li>
+	  		  	<li><a href="/index/education" class="button small searchtag">education</a></li>
+	  		  	<li><a href="/index/interaction" class="button small searchtag">interaction</a></li>
+	  		  	<li><a href="/index/design" class="button small searchtag">design</a></li>
+	  		  	<li><a href="/index/art" class="button small searchtag">art</a></li>
+	  		  	<li><a href="/index/vr" class="button small searchtag">VR</a></li>
+	  		  	<li><a href="/index/business" class="button small searchtag">start-up</a></li>
+	  		  </ul>
+  		  <!--</form>-->
+			<!--<h1>This is Phantom, a free, fully responsive site<br />-->
+			<!--template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>-->
+			<!--<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>-->
+		</header>
+
+		<section class="tiles">
+
+			<% @tiles.each do |t| %>
+			<article class=style<%= (t.id+5)%6+1%>>
+				<span class="image">
+					<%= image_tag t.img_name %>
+				</span>
+				<a href="/<%= t.link %>">
+					<h2><%= t.title %></h2>
+					<div class="content">
+						<p><%=t.content%></p>
+					</div>
+				</a>
+			</article>
+			<% end %>
+
+		</section>
+	</div>
+</div>
+
+
+<script>
+// 	$(".searchtag").click(function(){
+// 		search_tag = this.value;
+		
+// 		$.ajax({
+// 			method: "GET",
+// 			url: "/index"
+// 			data: {content: search_tag},
+// 			success: function(){
+// 				$(".tiles").append
+// 			}
+// 			error: function(){
+// 				alert("오류");
+// 			}
+			
+			
+// 		})
+		
+// 	});
+</script>
