@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'generic' => 'home#generic.html.erb'
   get 'elements' =>'home#elements.html.erb'
   get 'remembar' =>'home#remembar.html.erb'
+  get 'awards' => 'home#awards.html.erb'
   get 'baekbeomro' => 'home#baekbeomro.html.erb'
   get 'immersiveclassroom' =>'home#immersiveclassroom.html.erb'
   get 'visualbook' => 'home#visualbook.html.erb'
