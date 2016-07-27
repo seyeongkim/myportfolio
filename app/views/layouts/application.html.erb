@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-   <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
 	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	<%= csrf_meta_tags %>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<!--<link rel="stylesheet" href="main.css"/>-->
+	
+
+	<!--[if lte IE 8]><script src="https://s3.ap-northeast-2.amazonaws.com/portfolio37/html5shiv.js"></script><![endif]-->
 	<%= stylesheet_link_tag "main.css" %>
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><%= stylesheet_link_tag "ie9.css"%><![endif]-->
+	<!--[if lte IE 8]><%= stylesheet_link_tag "ie8.css" %><![endif]-->
+	
 	<title>Kim Seyeong</title>
 	<!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">-->
 	<style>
+	
 		.videoWrapper {
 		position: relative;
 		padding-bottom: 56.25%; /* 16:9 */
@@ -66,7 +69,7 @@
   				<!--<li><a href="generic">Drawings</a></li>-->
   				<li><a href="/awards">Awards & Honours</a></li>
   				<!--<li><a href="/#">CV</a></li>-->
-  				<!--<li><a href="elements">Elements</a></li>-->
+  				<li><a href="elements">Elements</a></li>
   			</ul>
   		</nav>
 		<!-- Footer -->
@@ -113,12 +116,8 @@
 
 	<!-- Scripts -->
 	
-	<!--<script src="jquery.min.js"></script>-->
-	<!--<script src="skel.min.js"></script>-->
-	<!--<script src="util.js"></script>-->
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<!--<script src="main.js"></script> -->
-	
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+
 </body>
 </html>
 

@@ -15,5 +15,5 @@
     Tile.create(link:'charactergraphy', title: 'Charactergraphy', content: "An imaginary biography writing and character building for sophisticated storytelling.", img_name:'index_charatergraphy.jpg', category: "humanity")
     Tile.create(link:'visualbook', title: 'Visaul Book - Invisible Cities', content: "A visual book made of sand, inspired by Invisible cities by Italo Calvino", img_name:'index_invisiblecities.jpg', category: "humanity art")
     Tile.create(link:'drawncrack', title: 'Draw & Crack', content: "A tablet game for two players where you can draw walls to bounce the ball or crack other player's walls to win the game.", img_name:'index_drawncrack.jpg', category: "interaction")
-    Tile.create(link:'colormix', title: 'Color Mix', content: "A visual book made of sand, inspired by Invisible cities by Italo Calvino", img_name:'index_colormix.jpg', category: "art interaction")
+    Tile.create(link:'colormix', title: 'Color Mix', content: "A 3D art game that you can make new colors by combining the lights from the primary color balls", img_name:'index_colormix.jpg', category: "art interaction")
     Tile.create(link:'#', title: 'Radiance Lab', content: "Radiant Heating Technology", img_name:'pic03.jpg', category: "business")
