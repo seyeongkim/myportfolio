@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   get 'colormix' => 'home#colormix.html.erb'
   get 'drawncrack' => 'home#drawncrack.html.erb'
   get 'index/:content' => 'home#index'
+  get 'about' => 'home#about.html.erb'
 
   # get 'charactergraphy' => 'Charactergraphy_seyeongkim.pdf'
   #   get 'products/:id' => 'catalog#view'
