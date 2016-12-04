@@ -1,0 +1,39 @@
+/*
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Tiles */
+/* line 15, /home/ec2-user/myportfolio/app/assets/sass/ie9.scss */
+.tiles:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* line 21, /home/ec2-user/myportfolio/app/assets/sass/ie9.scss */
+.tiles article {
+  float: left;
+}
+/* line 24, /home/ec2-user/myportfolio/app/assets/sass/ie9.scss */
+.tiles article > a {
+  padding-top: 50%;
+  margin-top: -1.75em;
+}
+/* line 31, /home/ec2-user/myportfolio/app/assets/sass/ie9.scss */
+body:not(.is-touch) .tiles article:hover > .image {
+  -moz-transform: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+/* Footer */
+/* line 43, /home/ec2-user/myportfolio/app/assets/sass/ie9.scss */
+#footer > .inner section {
+  float: left;
+}
+/* line 47, /home/ec2-user/myportfolio/app/assets/sass/ie9.scss */
+#footer > .inner .copyright {
+  clear: both;
+  padding-top: 4em;
+}
