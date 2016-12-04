@@ -16,4 +16,4 @@
     Tile.create(link:'colormix', title: 'Color Mix', content: "A 3D art game that you can make new colors by combining the lights from the primary color balls", img_name:'index_colormix.jpg', category: "art interaction")
     Tile.create(link:'drawncrack', title: 'Draw & Crack', content: "A tablet game for two players where you can draw walls to bounce the ball or crack other player's walls to win the game.", img_name:'index_drawncrack.jpg', category: "interaction")
     Tile.create(link:'woozu', title: 'WOOZU', content: "A 3D printing contents web market where users can easily customize 3d models.",img_name:'index_woozu.jpg', category: 'business')
-    Tile.create(link:'#', title: 'Radiance Lab', content: "Radiant Heating Technology", img_name:'pic03.jpg', category: "business")
+    Tile.create(link:'www.radiancelab.com', title: 'Radiance Lab', content: "Radiant Heating Technology", img_name:'radiance.jpg', category: "business")
